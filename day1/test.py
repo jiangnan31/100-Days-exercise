@@ -54,7 +54,7 @@ print("Y_test------")
 print(Y_test)
 
 # Step6
-# 特征标准化 reference: https://blog.csdn.net/u012102306/article/details/51940147
+# 特征标准化/规范化 reference: https://blog.csdn.net/u012102306/article/details/51940147
 # (featureValue - mean)/std, 将特征值减去均值，除以标准差
 # {方差公式s^2=1/n[(x1-m)^2+(x2-m)^2+...+(xn-m)^2], m为均值, n为特征个数, xn为第n个特征值},
 # 标准差描述了样本的波动大小, 值越大波动越大
